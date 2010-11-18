@@ -28,7 +28,10 @@ Ext.setup({
 
         rootPanel = new Ext.Panel({
             fullscreen: true,
-            layout: 'vbox',
+            layout: {
+                type: 'vbox',
+                align: 'stretch'
+            },
             items: [red, amber, green],
             dockedItems: []
         });
