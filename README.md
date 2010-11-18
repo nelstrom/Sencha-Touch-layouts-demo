@@ -1,3 +1,7 @@
+This Git repository includes all of the source code used in creating a tutorial about [layouts in Sencha Touch][tutorial].
+
+
+
 ## Auto
 
 * auto (0:56)
@@ -27,7 +31,6 @@
 * Vbox (4:33)
 * Vbox {align: 'stretch'} (4:48)
 * Vbox {pack: 'center'} (5:05)
-* Vbox {pack: 'end'} (5:10)
 * Vbox {defaults: {flex: 1}} (5:49)
 * Hbox {defaults: {flex: 1}} (5:58)
 
@@ -37,3 +40,6 @@
 * Exquisite corpse (7:18)
 * Exquisite corpse with credits (7:48)
 * Exquisite corpse with docked credits (8:12)
+
+
+[tutorial]: http://vimeo.com/15888504
