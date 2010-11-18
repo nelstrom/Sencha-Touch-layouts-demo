@@ -24,15 +24,15 @@ Each of the links below represents a snapshot of the code at a point in the vide
 ## Carousel
 
 * [Carousel][05a] (3:37)
-* [Carousel {direction: 'vertical'}][05b] (4:02)
+* [Carousel `{direction: 'vertical'}`][05b] (4:02)
 
 ## Box layouts
 
 * [Vbox][06a] (4:33)
-* [Vbox {align: 'stretch'}][06b] (4:48)
-* [Vbox {pack: 'center'}][06c] (5:05)
-* [Vbox {defaults: {flex: 1}}][06d] (5:49)
-* [Hbox {defaults: {flex: 1}}][06e] (5:58)
+* [Vbox `{align: 'stretch'}`][06b] (4:48)
+* [Vbox `{pack: 'center'}`][06c] (5:05)
+* [Vbox `{defaults: {flex: 1}}`][06d] (5:49)
+* [Hbox `{defaults: {flex: 1}}`][06e] (5:58)
 
 ## Mix and match
 
