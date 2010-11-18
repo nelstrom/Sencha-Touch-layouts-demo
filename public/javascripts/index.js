@@ -30,6 +30,7 @@ Ext.setup({
     });
 
     var credits = new Ext.Panel({
+      dock: 'bottom',
       html: 'Illustrations by <a href="http://www.veryworrying.com/">Laurie Pink</a>'
     });
 
@@ -40,8 +41,8 @@ Ext.setup({
         align: 'stretch'
       },
       defaults: {flex: 1},
-      items: [topChanger, centerChanger, bottomChanger, credits],
-      dockedItems: []
+      items: [topChanger, centerChanger, bottomChanger],
+      dockedItems: [credits]
     });
 
   }
