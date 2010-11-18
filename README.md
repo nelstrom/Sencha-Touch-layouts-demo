@@ -1,7 +1,7 @@
 ## Auto
 
 * auto (0:56)
-* auto (1:09)
+* auto "Lorem ipsum" (1:09)
 
 ## Fit
 
