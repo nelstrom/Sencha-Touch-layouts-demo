@@ -29,7 +29,7 @@ Ext.setup({
         rootPanel = new Ext.Panel({
             fullscreen: true,
             layout: {
-                type: 'vbox',
+                type: 'hbox',
                 align: 'stretch',
                 pack: 'center'    // try start [default], center or end.
             },
