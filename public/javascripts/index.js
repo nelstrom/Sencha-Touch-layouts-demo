@@ -1,0 +1,3 @@
+Ext.setup({
+    onReady: function() {}
+});
