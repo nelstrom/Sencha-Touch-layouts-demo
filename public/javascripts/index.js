@@ -33,6 +33,7 @@ Ext.setup({
                 align: 'stretch',
                 pack: 'center'    // try start [default], center or end.
             },
+            defaults: {flex: 1},  // alternatively, apply flex to each inner item
             items: [red, amber, green],
             dockedItems: []
         });
