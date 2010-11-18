@@ -39,6 +39,7 @@ Ext.setup({
         rootPanel = new Ext.TabPanel({
             fullscreen: true,
             layout: 'card',
+            animation: {type: 'fade', duration: 500},
             items: [red, amber, green],
             dockedItems: []
         });
