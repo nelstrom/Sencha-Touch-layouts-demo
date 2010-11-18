@@ -1,6 +1,6 @@
 This Git repository includes all of the source code used in creating a tutorial about [layouts in Sencha Touch][tutorial].
 
-
+Each of the links below represents a snapshot of the code at a point in the video (timestamps are in brackets). You'll find instructions below on how to check out each snapshot from this git repository.
 
 ## Auto
 
