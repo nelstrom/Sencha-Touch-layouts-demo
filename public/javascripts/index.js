@@ -1,3 +1,7 @@
+// The 'card' layout only shows a single panel at a time.
+// The TabPanel is a special kind of card layout, which provides
+// a user interface for changing which card is visible.
+//
 // Open up the Web inspector (webkit) or Firebug (Firefox)
 // and try running:
 //
@@ -5,7 +9,6 @@
 //      rootPanel.setCard(2)
 //      rootPanel.setCard(0)
 //
-// The 'card' layout only shows a single panel at a time.
 
 var rootPanel;
 
@@ -33,7 +36,7 @@ Ext.setup({
             html: "Green"
         };
 
-        rootPanel = new Ext.Panel({
+        rootPanel = new Ext.TabPanel({
             fullscreen: true,
             layout: 'card',
             items: [red, amber, green],
