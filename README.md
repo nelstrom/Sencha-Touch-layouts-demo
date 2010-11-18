@@ -53,25 +53,25 @@ Change into the directory:
 
 By default, the git clone command will only create the master branch locally. If you want to study the code at each checkpoint, you will have to fetch each of the other branches. You can do so by running the following:
 
-    git checkout -b 00_blank_slate
-    git checkout -b 01a_auto_layout
-    git checkout -b 01b_auto_layout
-    git checkout -b 02a_fit_layout
-    git checkout -b 02b_fit_layout
-    git checkout -b 03_card_layout
-    git checkout -b 04a_tab_panel
-    git checkout -b 04b_tab_panel
-    git checkout -b 05a_carousel
-    git checkout -b 05b_carousel
-    git checkout -b 06a_box_layout
-    git checkout -b 06b_box_layout
-    git checkout -b 06c_box_layout
-    git checkout -b 06d_box_layout
-    git checkout -b 06e_box_layout
-    git checkout -b 07_traffic_light_carousel
-    git checkout -b 08a_exquisite_corpse
-    git checkout -b 08b_exquisite_corpse
-    git checkout -b 08c_exquisite_corpse
+    git checkout -b 00_blank_slate origin/00_blank_slate
+    git checkout -b 01a_auto_layout origin/01a_auto_layout
+    git checkout -b 01b_auto_layout origin/01b_auto_layout
+    git checkout -b 02a_fit_layout origin/02a_fit_layout
+    git checkout -b 02b_fit_layout origin/02b_fit_layout
+    git checkout -b 03_card_layout origin/03_card_layout
+    git checkout -b 04a_tab_panel origin/04a_tab_panel
+    git checkout -b 04b_tab_panel origin/04b_tab_panel
+    git checkout -b 05a_carousel origin/05a_carousel
+    git checkout -b 05b_carousel origin/05b_carousel
+    git checkout -b 06a_box_layout origin/06a_box_layout
+    git checkout -b 06b_box_layout origin/06b_box_layout
+    git checkout -b 06c_box_layout origin/06c_box_layout
+    git checkout -b 06d_box_layout origin/06d_box_layout
+    git checkout -b 06e_box_layout origin/06e_box_layout
+    git checkout -b 07_traffic_light_carousel origin/07_traffic_light_carousel
+    git checkout -b 08a_exquisite_corpse origin/08a_exquisite_corpse
+    git checkout -b 08b_exquisite_corpse origin/08b_exquisite_corpse
+    git checkout -b 08c_exquisite_corpse origin/08c_exquisite_corpse
 
 You can review the list of local branches by running:
 
