@@ -30,7 +30,8 @@ Ext.setup({
             fullscreen: true,
             layout: {
                 type: 'vbox',
-                align: 'stretch'
+                align: 'stretch',
+                pack: 'center'    // try start [default], center or end.
             },
             items: [red, amber, green],
             dockedItems: []
