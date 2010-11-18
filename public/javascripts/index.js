@@ -39,6 +39,7 @@ Ext.setup({
         rootPanel = new Ext.Carousel({
             fullscreen: true,
             layout: 'card',
+            direction: 'vertical',
             items: [red, amber, green],
             dockedItems: []
         });
