@@ -81,8 +81,12 @@ And you can switch between branches with the checkout command. For example, to c
 
     git co 08c_exquisite_corpse
 
+## Live demo
+
+Here is a live demo of the [Exquisite corpse][corpse] example.
 
 [tutorial]: http://vimeo.com/15888504
+[corpse]: http://exquisite-corpse.heroku.com
 
 [00]:  https://github.com/nelstrom/Sencha-Touch-layouts-demo/tree/00_blank_slate
 [01a]: https://github.com/nelstrom/Sencha-Touch-layouts-demo/tree/01a_auto_layout
