@@ -83,10 +83,11 @@ And you can switch between branches with the checkout command. For example, to c
 
 ## Live demo
 
-Here is a live demo of the [Exquisite corpse][corpse] example.
+Here is a live demo of the [Exquisite corpse][corpse] example. You can also find the [source code on github][gitcorpse].
 
 [tutorial]: http://vimeo.com/15888504
 [corpse]: http://exquisite-corpse.heroku.com
+[gitcorpse]: https://github.com/nelstrom/Exquisite-corpse
 
 [00]:  https://github.com/nelstrom/Sencha-Touch-layouts-demo/tree/00_blank_slate
 [01a]: https://github.com/nelstrom/Sencha-Touch-layouts-demo/tree/01a_auto_layout
