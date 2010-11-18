@@ -1,5 +1,5 @@
 // The 'card' layout only shows a single panel at a time.
-// The TabPanel is a special kind of card layout, which provides
+// The Carousel is a special kind of card layout, which provides
 // a user interface for changing which card is visible.
 //
 // Open up the Web inspector (webkit) or Firebug (Firefox)
@@ -36,10 +36,9 @@ Ext.setup({
             html: "Green"
         };
 
-        rootPanel = new Ext.TabPanel({
+        rootPanel = new Ext.Carousel({
             fullscreen: true,
             layout: 'card',
-            animation: {type: 'fade', duration: 500},
             items: [red, amber, green],
             dockedItems: []
         });
