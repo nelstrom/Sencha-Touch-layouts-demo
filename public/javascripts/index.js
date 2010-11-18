@@ -1,14 +1,4 @@
-// The 'card' layout only shows a single panel at a time.
-// The Carousel is a special kind of card layout, which provides
-// a user interface for changing which card is visible.
-//
-// Open up the Web inspector (webkit) or Firebug (Firefox)
-// and try running:
-//
-//      rootPanel.setCard(1)
-//      rootPanel.setCard(2)
-//      rootPanel.setCard(0)
-//
+// The 'vbox' and 'hbox' layouts can show multiple panels at once.
 
 var rootPanel;
 
@@ -36,10 +26,9 @@ Ext.setup({
             html: "Green"
         };
 
-        rootPanel = new Ext.Carousel({
+        rootPanel = new Ext.Panel({
             fullscreen: true,
-            layout: 'card',
-            direction: 'vertical',
+            layout: 'vbox',
             items: [red, amber, green],
             dockedItems: []
         });
