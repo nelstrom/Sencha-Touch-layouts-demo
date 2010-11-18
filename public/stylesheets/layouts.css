@@ -1,0 +1,16 @@
+.head, .torso, .legs {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 0;
+}
+.head-1{ background-image: url('/images/1-exquisite-heads.png'); }
+.head-2{ background-image: url('/images/2-exquisite-heads.png'); }
+.head-3{ background-image: url('/images/3-exquisite-heads.png'); }
+
+.torso-1{ background-image: url('/images/1-exquisite-torsos.png'); }
+.torso-2{ background-image: url('/images/2-exquisite-torsos.png'); }
+.torso-3{ background-image: url('/images/3-exquisite-torsos.png'); }
+
+.legs-1{ background-image: url('/images/1-exquisite-legs.png'); }
+.legs-2{ background-image: url('/images/2-exquisite-legs.png'); }
+.legs-3{ background-image: url('/images/3-exquisite-legs.png'); }
