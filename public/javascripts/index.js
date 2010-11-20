@@ -5,9 +5,9 @@
 // Open up the Web inspector (webkit) or Firebug (Firefox)
 // and try running:
 //
-//      rootPanel.setCard(1)
-//      rootPanel.setCard(2)
-//      rootPanel.setCard(0)
+//      rootPanel.setActiveItem(1)
+//      rootPanel.setActiveItem(2)
+//      rootPanel.setActiveItem(0)
 //
 
 var rootPanel;
